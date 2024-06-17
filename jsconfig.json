@@ -15,5 +15,13 @@
       "dom.iterable",
       "scripthost"
     ]
-  }
+  },
+  "include": [
+    "src/**/*",
+    "vite.config.mjs" // 여기서 vite.config.mjs 파일을 포함하도록 설정
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
